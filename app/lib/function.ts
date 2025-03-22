@@ -7,6 +7,6 @@ export const validateEmail = (email:string) => {
   
 
   export function validatePassword(password:string) {
-    let pattern = /^[A-Za-z\d]{8,}$/;
+    const pattern = /^[A-Za-z\d]{8,}$/;
     return pattern.test(password); 
 }
